@@ -242,9 +242,9 @@ a sequence of three git commands:
    will need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
    the relevant git operations through IntelliJ's graphical user interface.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [x] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
-- [ ] Repeat the above steps for `README.md` (or try using the approach below).
+- [x] Repeat the above steps for `README.md` (or try using the approach below).
 
 > Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
 If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
@@ -271,12 +271,12 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [x] Right-click on `lab1` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+- [x] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
 autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 
 - [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method does _not_
@@ -292,12 +292,12 @@ You'll see that IntelliJ flags that you are trying to access something that is p
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
 error and not just a warning).
 
-- [ ] Hover over the error; IntelliJ will suggest some fixes.
+- [x] Hover over the error; IntelliJ will suggest some fixes.
 
-- [ ] Click `More actions...` and you'll see a list of the various possible access modifiers.
+- [x] Click `More actions...` and you'll see a list of the various possible access modifiers.
 These will be explained in more detail in your readings, but for now we can just make the method public.
 
-- [ ] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
+- [x] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
 what you expect.
 
 ### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
