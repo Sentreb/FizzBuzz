@@ -221,7 +221,7 @@ test the calculation for several interesting numbers more easily though.
 
 Now that you've made some edits to your code, you should use git to save these changes to your local repository and then upload them to GitHub.
 
-- [ ] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
+- [x] Open the Terminal tab in IntelliJ and type `git status`, it will show you that you have
   modified `FizzBuzz.java` (and possibly this README too!).
 
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
